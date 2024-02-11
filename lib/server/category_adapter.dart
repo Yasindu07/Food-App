@@ -1,8 +1,8 @@
 import 'package:food_app/models/item.dart';
 import 'package:hive/hive.dart';
 
-class CategoriesAdapter extends TypeAdapter<Category>{
-
+//enum category
+class CategoriesAdapter extends TypeAdapter<Category> {
   @override
   final int typeId = 2;
 
